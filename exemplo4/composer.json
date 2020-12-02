@@ -1,0 +1,17 @@
+{
+    "name": "henrique/ex4php",
+    "description": "Exemplo PHP com autoload via classmap",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique-Ribeiro-glitch",
+            "email": "hj777457@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "classmap": ["App/Src/Model"]
+    }
+}

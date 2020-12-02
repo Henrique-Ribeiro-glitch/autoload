@@ -1,0 +1,19 @@
+{
+    "name": "henrique/exemplo5",
+    "description": "Exemplo de PHP com autoload via psr4",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique-Ribeiro-glitch",
+            "email": "hj777457@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "App\\": "App/"
+      }
+    }
+}
